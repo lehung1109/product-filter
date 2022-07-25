@@ -1,0 +1,21 @@
+{
+  "name": "hungitfs/product-filter",
+  "type": "wordpress-plugin",
+  "description": "Base field for wordpress product filter plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sentius Dev Team"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ProductFilter\\": "src"
+    }
+  },
+  "require": {
+    "premmerce/wordpress-sdk": "^2.0",
+    "inpsyde/wp-context": "^1.3"
+  }
+
+}
